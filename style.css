@@ -1,0 +1,35 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  max-width: 114rem;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-font__family: 'Caveat', cursive;
+  --secondary-font__family: 'Montserrat', cursive;
+  --primary-font__size: 2.4rem;
+  --secondary-font__size: 1.6rem;
+  --tertiary-font__size: 3.2rem;
+}
+
+.my-name {
+  font-size: var(--primary-font__size);
+  font-family: var(--primary-font__family);
+}
+
+.lead-para {
+  font-size: var(--secondary-font__size);
+  font-family: var(--secondary-font__family);
+}
