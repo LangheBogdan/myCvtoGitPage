@@ -42,6 +42,10 @@ h6 {
   font-family: var(--primary-font__family);
 }
 
+.para {
+  font-size: var(--secondary-font__size);
+}
+
 .para,
 .contact-link {
   font-family: var(--secondary-font__family);
