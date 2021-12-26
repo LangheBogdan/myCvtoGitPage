@@ -49,7 +49,8 @@ h6 {
 .intro,
 .summary,
 .experience,
-.education {
+.education,
+.licenses {
   padding-left: var(--p);
   padding-right: var(--p);
   text-align: justify;
