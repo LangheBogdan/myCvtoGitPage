@@ -12,8 +12,8 @@ html {
 body {
   max-width: 114rem;
   height: 100vh;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 :root {
@@ -22,14 +22,34 @@ body {
   --primary-font__size: 2.4rem;
   --secondary-font__size: 1.6rem;
   --tertiary-font__size: 3.2rem;
+  --darkslateblue: #483d8b;
+  --thistle: #d8bfd8;
+  --m: 1rem;
+  --p: 2rem;
 }
-
-.my-name {
-  font-size: var(--primary-font__size);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--primary-font__family);
 }
 
-.lead-para {
-  font-size: var(--secondary-font__size);
+.para,
+.contact-link {
   font-family: var(--secondary-font__family);
+}
+
+.contact-link {
+  display: block;
+  text-decoration: none;
+}
+
+.intro,
+.summary,
+.experience {
+  padding-left: var(--p);
+  padding-right: var(--p);
+  text-align: justify;
 }
