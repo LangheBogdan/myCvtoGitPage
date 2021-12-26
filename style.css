@@ -29,6 +29,7 @@ ul {
   --tertiary-font__size: 3.2rem;
   --darkslateblue: #483d8b;
   --thistle: #d8bfd8;
+  --secondary-background: #c9ae47;
   --m: 1rem;
   --p: 2rem;
 }
@@ -59,7 +60,7 @@ h6 {
 .skills {
   padding-left: var(--p);
   padding-right: var(--p);
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .intro {
@@ -69,11 +70,13 @@ h6 {
 
 .intro__para {
   text-align: center;
+  font-size: var(--secondary-font__size);
 }
 
-.intro .contact-link {
+.intro__link {
   color: var(--thistle);
   padding-bottom: var(--p);
+  font-size: calc(var(--secondary-font__size) - 0.4rem);
 }
 
 .y-name {
@@ -81,6 +84,17 @@ h6 {
   margin-top: 0;
   margin-bottom: var(--m);
   text-align: center;
+}
+
+.summary {
+  background-color: var(--secondary-background);
+  padding-bottom: var(--p);
+}
+
+.summary h2 {
+  margin-top: 0;
+  font-size: var(--primary-font__size);
+  margin-bottom: var(--m);
 }
 
 .skills ul li {
