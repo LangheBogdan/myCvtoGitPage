@@ -15,6 +15,11 @@ body {
   padding: 0;
   margin: 0;
 }
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
 :root {
   --primary-font__family: 'Caveat', cursive;
@@ -50,8 +55,34 @@ h6 {
 .summary,
 .experience,
 .education,
-.licenses {
+.licenses,
+.skills {
   padding-left: var(--p);
   padding-right: var(--p);
   text-align: justify;
+}
+
+.intro {
+  background-color: var(--darkslateblue);
+  color: var(--thistle);
+}
+
+.intro__para {
+  text-align: center;
+}
+
+.intro .contact-link {
+  color: var(--thistle);
+  padding-bottom: var(--p);
+}
+
+.y-name {
+  font-size: calc(var(--tertiary-font__size) + 1.8rem);
+  margin-top: 0;
+  margin-bottom: var(--m);
+  text-align: center;
+}
+
+.skills ul li {
+  font-family: var(--secondary-font__family);
 }
