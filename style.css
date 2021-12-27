@@ -101,6 +101,10 @@ h6 {
   margin-bottom: var(--m);
 }
 
+.summary__link {
+  color: #000;
+}
+
 .skills ul li {
   font-family: var(--secondary-font__family);
 }
