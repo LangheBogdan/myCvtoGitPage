@@ -103,6 +103,7 @@ h6 {
 
 .summary__link {
   color: #000;
+  font-size: calc(var(--secondary-font__size) - 0.4rem);
 }
 
 .skills ul li {
