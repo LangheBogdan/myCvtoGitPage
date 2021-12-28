@@ -106,6 +106,9 @@ h6 {
 }
 
 .y-name {
+  position: fixed;
+  top: 30px;
+  left: 40%;
   font-size: calc(var(--tertiary-font__size) + 1.8rem);
   text-align: center;
   margin-top: 0;
