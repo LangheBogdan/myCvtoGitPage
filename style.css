@@ -165,4 +165,9 @@ h6 {
     width: 60%;
     margin: 0 auto;
   }
+  .y-name {
+    position: fixed;
+    top: 30px;
+    left: 40%;
+  }
 }
