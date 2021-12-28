@@ -41,6 +41,10 @@ h5,
 h6 {
   font-family: var(--primary-font__family);
 }
+/* Add font size to all level two headings ... Use in Script */
+.headingLevelTwo {
+  font-size: var(--primary-font__size);
+}
 
 .para {
   font-size: var(--secondary-font__size);
@@ -97,7 +101,7 @@ h6 {
 
 .summary h2 {
   margin-top: 0;
-  font-size: var(--primary-font__size);
+
   margin-bottom: var(--m);
 }
 
