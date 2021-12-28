@@ -30,6 +30,9 @@ ul {
   --darkslateblue: #483d8b;
   --thistle: #d8bfd8;
   --secondary-background: #c9ae47;
+  --shade: #938cc5;
+  --shadeTwo: #675da5;
+  --shadeThree: #a98f28;
   --m: 1rem;
   --p: 2rem;
 }
@@ -43,7 +46,21 @@ h6 {
 }
 /* Add font size to all level two headings ... Use in Script */
 .headingLevelTwo {
-  font-size: var(--primary-font__size);
+  font-size: calc(var(--primary-font__size) + 0.6rem);
+  margin-top: 0;
+  margin-bottom: var(--m);
+}
+
+.headingLevelThree {
+  font-size: calc(var(--primary-font__size) + 0.4rem);
+  margin-top: 0;
+  margin-bottom: var(--m);
+}
+
+.headingLevelFour {
+  font-size: calc(var(--primary-font__size) + 0.1rem);
+  margin-top: 0;
+  margin-bottom: var(--m);
 }
 
 .para {
@@ -78,7 +95,7 @@ h6 {
 
 .intro__para {
   text-align: center;
-  font-size: var(--secondary-font__size);
+  margin-top: 0;
 }
 
 .intro__link {
@@ -89,20 +106,14 @@ h6 {
 
 .y-name {
   font-size: calc(var(--tertiary-font__size) + 1.8rem);
+  text-align: center;
   margin-top: 0;
   margin-bottom: var(--m);
-  text-align: center;
 }
 
 .summary {
   background-color: var(--secondary-background);
   padding-bottom: var(--p);
-}
-
-.summary h2 {
-  margin-top: 0;
-
-  margin-bottom: var(--m);
 }
 
 .summary__link {
@@ -114,6 +125,18 @@ h6 {
   font-family: var(--secondary-font__family);
 }
 
+.experience {
+  background-color: var(--shade);
+  padding-bottom: var(--p);
+}
+.education {
+  background-color: var(--shadeTwo);
+  padding-bottom: var(--p);
+}
+.licenses {
+  background-color: var(--shadeThree);
+  padding-bottom: var(--p);
+}
 @media screen and (min-width: 768px) {
   body {
     max-width: 100%;
