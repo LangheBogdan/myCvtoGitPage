@@ -33,6 +33,7 @@ ul {
   --shade: #938cc5;
   --shadeTwo: #675da5;
   --shadeThree: #a98f28;
+  --shadeFour: #0e2c55;
   --m: 1rem;
   --p: 2rem;
 }
@@ -133,9 +134,25 @@ h6 {
   background-color: var(--shadeTwo);
   padding-bottom: var(--p);
 }
+.education > p > small {
+  color: #fff;
+}
 .licenses {
   background-color: var(--shadeThree);
   padding-bottom: var(--p);
+}
+.skills {
+  background-color: var(--shadeFour);
+  padding-bottom: var(--p);
+  color: #fff;
+}
+
+.list-item {
+  font-size: calc(var(--secondary-font__size) - 0.2rem);
+}
+
+.list-item:not(:last-child) {
+  padding-bottom: 1rem;
 }
 @media screen and (min-width: 768px) {
   body {
