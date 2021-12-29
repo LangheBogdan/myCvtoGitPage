@@ -154,7 +154,7 @@ h6 {
   font-size: calc(var(--secondary-font__size) - 0.2rem);
 }
 
-.list-item:not(:last-child) {
+.list-item {
   padding-bottom: 1rem;
 }
 @media screen and (min-width: 768px) {
@@ -169,5 +169,22 @@ h6 {
     position: fixed;
     top: 30px;
     left: 40%;
+  }
+  .skills-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: auto;
+    flex-wrap: wrap;
+    gap: var(--m);
+  }
+
+  .listLi {
+    background-color: #000;
+    padding: var(--p);
+    border-radius: 1rem;
+    /* margin-bottom: var(--m); */
+    width: 25%;
+    text-align: center;
   }
 }
