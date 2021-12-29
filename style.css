@@ -180,6 +180,7 @@ h6 {
     background-color: #000;
     padding: var(--p);
     border-radius: 1rem;
+    box-shadow: 0px 0px 1rem;
     /* margin-bottom: var(--m); */
     width: 25%;
     text-align: center;
