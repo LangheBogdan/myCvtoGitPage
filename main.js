@@ -1,5 +1,8 @@
-// TODO Enable alert;
-// alert('Work in progress');
+const load = () => {
+  alert('Work in Progress Stay Tuned!');
+};
+window.onload = load;
+
 // Selects all level two headings
 const headingLevelTwo = document.querySelectorAll('h2');
 
