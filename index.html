@@ -1,105 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Langhe Bogdan CV" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Montserrat:wght@100;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/9c41fa08b4.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="main.js" defer></script>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8' />
+  <meta content='IE=edge' http-equiv='X-UA-Compatible' />
+  <meta content='width=device-width, initial-scale=1.0' name='viewport' />
+  <meta content='Langhe Bogdan CV' name='description' />
+  <link href='https://fonts.googleapis.com' rel='preconnect' />
+  <link crossorigin href='https://fonts.gstatic.com' rel='preconnect' />
+  <link href='/apple-touch-icon.png' rel='apple-touch-icon' sizes='180x180'>
+  <link href='/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png'>
+  <link href='/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
+  
+  <link
+    href='https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Montserrat:wght@100;400;700&display=swap'
+    rel='stylesheet'
+  />
+  <script
+    crossorigin='anonymous'
+    src='https://kit.fontawesome.com/9c41fa08b4.js'
+  ></script>
+  <script defer src='main.js'></script>
 
-    <style >
+  <style>
       html {
-        font-size: 62.5%;
-        box-sizing: border-box;
+          font-size: 62.5%;
+          box-sizing: border-box;
       }
 
       *,
       *::before,
       *::after {
-        box-sizing: inherit;
+          box-sizing: inherit;
       }
 
       body {
-        max-width: 114rem;
-        height: 100vh;
-        padding: 0;
-        margin: 0;
+          max-width: 114rem;
+          height: 100vh;
+          padding: 0;
+          margin: 0;
       }
+
       ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
       }
 
       :root {
-        --primary-font__family: 'Caveat', cursive;
-        --secondary-font__family: 'Montserrat', cursive;
-        --primary-font__size: 2.4rem;
-        --secondary-font__size: 1.6rem;
-        --tertiary-font__size: 3.2rem;
-        --darkslateblue: #483d8b;
-        --thistle: #d8bfd8;
-        --secondary-background: #c9ae47;
-        --shade: #938cc5;
-        --shadeTwo: #675da5;
-        --shadeThree: #a98f28;
-        --shadeFour: #0e2c55;
-        --m: 1rem;
-        --p: 2rem;
+          --primary-font__family: 'Caveat', cursive;
+          --secondary-font__family: 'Montserrat', cursive;
+          --primary-font__size: 2.4rem;
+          --secondary-font__size: 1.6rem;
+          --tertiary-font__size: 3.2rem;
+          --darkslateblue: #483d8b;
+          --thistle: #d8bfd8;
+          --secondary-background: #c9ae47;
+          --shade: #938cc5;
+          --shadeTwo: #675da5;
+          --shadeThree: #a98f28;
+          --shadeFour: #0e2c55;
+          --m: 1rem;
+          --p: 2rem;
       }
+
       h1,
       h2,
       h3,
       h4,
       h5,
       h6 {
-        font-family: var(--primary-font__family);
+          font-family: var(--primary-font__family);
       }
+
       /* Add font size to all level two headings ... Use in Script */
       .headingLevelTwo {
-        font-size: calc(var(--primary-font__size) + 0.6rem);
-        margin-top: 0;
-        margin-bottom: var(--m);
+          font-size: calc(var(--primary-font__size) + 0.6rem);
+          margin-top: 0;
+          margin-bottom: var(--m);
       }
 
       .headingLevelThree {
-        font-size: calc(var(--primary-font__size) + 0.4rem);
-        margin-top: 0;
-        margin-bottom: var(--m);
+          font-size: calc(var(--primary-font__size) + 0.4rem);
+          margin-top: 0;
+          margin-bottom: var(--m);
       }
 
       .headingLevelFour {
-        font-size: calc(var(--primary-font__size) + 0.1rem);
-        margin-top: 0;
-        margin-bottom: var(--m);
+          font-size: calc(var(--primary-font__size) + 0.1rem);
+          margin-top: 0;
+          margin-bottom: var(--m);
       }
 
       .para {
-        font-size: var(--secondary-font__size);
+          font-size: var(--secondary-font__size);
       }
 
       .para,
       .contact-link {
-        font-family: var(--secondary-font__family);
+          font-family: var(--secondary-font__family);
       }
 
       .contact-link {
-        display: block;
-        text-decoration: none;
+          display: block;
+          text-decoration: none;
       }
 
       .intro,
@@ -109,262 +112,272 @@
       .licenses,
       .skills,
       .languages {
-        padding-left: var(--p);
-        padding-right: var(--p);
-        /* text-align: justify; */
+          padding-left: var(--p);
+          padding-right: var(--p);
+          /* text-align: justify; */
       }
 
       .intro {
-        background-color: var(--darkslateblue);
-        color: var(--thistle);
+          background-color: var(--darkslateblue);
+          color: var(--thistle);
       }
 
       .intro__para {
-        text-align: center;
-        margin-top: 0;
+          text-align: center;
+          margin-top: 0;
       }
 
       .intro__link {
-        color: var(--thistle);
-        padding-bottom: var(--p);
-        font-size: calc(var(--secondary-font__size) - 0.4rem);
+          color: var(--thistle);
+          padding-bottom: var(--p);
+          font-size: calc(var(--secondary-font__size) - 0.4rem);
       }
 
       .y-name {
-        font-size: calc(var(--tertiary-font__size) + 1.8rem);
-        text-align: center;
-        margin-top: 0;
-        margin-bottom: var(--m);
-        color: #000;
-        font-weight: 900;
+          font-size: calc(var(--tertiary-font__size) + 1.8rem);
+          text-align: center;
+          margin-top: 0;
+          margin-bottom: var(--m);
+          color: #000;
+          font-weight: 900;
       }
 
       .summary {
-        background-color: var(--secondary-background);
-        padding-bottom: var(--p);
+          background-color: var(--secondary-background);
+          padding-bottom: var(--p);
       }
 
       .summary__link {
-        color: #000;
-        font-size: calc(var(--secondary-font__size) - 0.4rem);
+          color: #000;
+          font-size: calc(var(--secondary-font__size) - 0.4rem);
       }
 
       .skills ul li {
-        font-family: var(--secondary-font__family);
+          font-family: var(--secondary-font__family);
       }
 
       .experience {
-        background-color: var(--shade);
-        padding-bottom: var(--p);
+          background-color: var(--shade);
+          padding-bottom: var(--p);
       }
+
       .education {
-        background-color: var(--shadeTwo);
-        padding-bottom: var(--p);
+          background-color: var(--shadeTwo);
+          padding-bottom: var(--p);
       }
+
       .education > p > small {
-        color: #fff;
+          color: #fff;
       }
+
       .licenses {
-        background-color: var(--shadeThree);
-        padding-bottom: var(--p);
+          background-color: var(--shadeThree);
+          padding-bottom: var(--p);
       }
+
       .skills {
-        background-color: var(--shadeFour);
-        padding-bottom: var(--p);
-        color: #fff;
+          background-color: var(--shadeFour);
+          padding-bottom: var(--p);
+          color: #fff;
       }
 
       .list-item {
-        font-size: calc(var(--secondary-font__size) - 0.2rem);
+          font-size: calc(var(--secondary-font__size) - 0.2rem);
       }
 
       .list-item {
-        padding-bottom: 1rem;
+          padding-bottom: 1rem;
       }
+
       @media screen and (min-width: 768px) {
-        body {
-          max-width: 100%;
-        }
-        main {
-          width: 60%;
-          margin: 0 auto;
-        }
-        .y-name {
-          position: fixed;
-          top: 30px;
-          left: 40%;
-        }
-        .skills-list {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex: auto;
-          flex-wrap: wrap;
-          gap: var(--m);
-        }
+          body {
+              max-width: 100%;
+          }
 
-        .listLi {
-          background-color: #000;
-          padding: var(--p);
-          border-radius: 1rem;
-          box-shadow: 0 0 1rem;
-          /* margin-bottom: var(--m); */
-          width: 25%;
-          text-align: center;
-        }
+          main {
+              width: 60%;
+              margin: 0 auto;
+          }
+
+          .y-name {
+              position: fixed;
+              top: 30px;
+              left: 40%;
+          }
+
+          .skills-list {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              flex: auto;
+              flex-wrap: wrap;
+              gap: var(--m);
+          }
+
+          .listLi {
+              background-color: #000;
+              padding: var(--p);
+              border-radius: 1rem;
+              box-shadow: 0 0 1rem;
+              /* margin-bottom: var(--m); */
+              width: 25%;
+              text-align: center;
+          }
       }
-    </style>
-    <link
-      rel="preload"
-      href="style.css"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
-    <noscript><link rel="stylesheet" href="style.css" /></noscript>
-    <title>My CV - GitHub Pages</title>
-  </head>
-  <body>
-    <main>
-      <section class="intro">
-        <h1 class="y-name">Bogdan Langhe</h1>
-        <p class="para intro__para">Junior Web Developer</p>
-        <a class="contact-link intro__link" href="mailto:bogdanlanghe@gmail.com"
-          >bogdanlanghe@gmail.com</a
-        >
-        <a class="contact-link intro__link" href="tel:+40720090661"
-          >&lpar;+40&rpar;720.090.661</a
-        >
-        <a
-          target="_blank"
-          rel="noopener"
-          class="contact-link intro__link"
-          href="https://www.linkedin.com/in/bogdan-langhe/"
-          >linkedin.com/in/bogdan-langhe</a
-        >
-      </section>
-      <section class="summary">
-        <h2>Summary</h2>
-        <p class="para">
-          In a short period, I managed to learn and put into practice the core
-          of HTML and CSS on daily basis for various clients.
-        </p>
-        <p class="para">
-          Currently, I am working on upgrading my skills with JavaScript
-          (Vanilla JS, jQuery) and some of the frameworks like (Angular, React,
-          Vue), keeping pace with the newest techniques in CSS ( Bootstrap,
-          Tailwind CSS, Sass, CSS custom properties) and semantic HTML5.
-        </p>
-        <p class="para">
-          Willingness to learn to achieve my scope: Being a great web developer.
-        </p>
+  </style>
+  <link
+    as='style'
+    href='style.css'
+    onload="this.onload=null;this.rel='stylesheet'"
+    rel='preload'
+  />
+  <noscript>
+    <link href='style.css' rel='stylesheet' />
+  </noscript>
+  <title>My CV - GitHub Pages</title>
+</head>
+<body>
+<main>
+  <section class='intro'>
+    <h1 class='y-name'>Bogdan Langhe</h1>
+    <p class='para intro__para'>Junior Web Developer</p>
+    <a class='contact-link intro__link' href='mailto:bogdanlanghe@gmail.com'
+    >bogdanlanghe@gmail.com</a
+    >
+    <a class='contact-link intro__link' href='tel:+40720090661'
+    >&lpar;+40&rpar;720.090.661</a
+    >
+    <a
+      class='contact-link intro__link'
+      href='https://www.linkedin.com/in/bogdan-langhe/'
+      rel='noopener'
+      target='_blank'
+    >linkedin.com/in/bogdan-langhe</a
+    >
+  </section>
+  <section class='summary'>
+    <h2>Summary</h2>
+    <p class='para'>
+      In a short period, I managed to learn and put into practice the core
+      of HTML and CSS on daily basis for various clients.
+    </p>
+    <p class='para'>
+      Currently, I am working on upgrading my skills with JavaScript
+      (Vanilla JS, jQuery) and some of the frameworks like (Angular, React,
+      Vue), keeping pace with the newest techniques in CSS ( Bootstrap,
+      Tailwind CSS, Sass, CSS custom properties) and semantic HTML5.
+    </p>
+    <p class='para'>
+      Willingness to learn to achieve my scope: Being a great web developer.
+    </p>
 
-        <a
-          href="https://www.linkedin.com/in/bogdan-langhe/"
-          class="contact-link summary__link"
-          >https://langhebogdan.github.io/myCvtoGitPage/</a
-        >
-      </section>
-      <section class="experience">
-        <h2>Experience</h2>
-        <h3>Web Content Manager / Travel Counselor</h3>
-        <h4>TRIPTAILOR</h4>
-        <p class="para"><small>May 2021 - Present (9 months +)</small></p>
-        <p class="para">
-          As a web content manager, I am in charge of modifying web pages (I
-          update the HTML, CSS code to meet TRIPTAILOR demands) also videos,
-          images, occasionally social media and marketing (e.g. Google Ads
-          Campaign, SEO).
-        </p>
-        <p class="para">
-          As a travel counsellor, I am in charge of building offers to clients
-          according to internal rules, also processing booking requests for
-          airline tickets, accommodation, rent a car and health insurance.
-        </p>
-        <h3>Junior Web Developer</h3>
-        <h4>Freelancer</h4>
-        <p class="para">
-          <small>Oct 2020 - Present (1 year 2 months +)</small>
-        </p>
-        <p class="para">
-          I design and maintain websites for various clients
-          (https://www.ofsystems.ro/, https:// www.brutariaconcordia.ro/),
-          mainly on the WordPress CMS.
-        </p>
-        <p class="para">
-          I work with pre-built themes and plug-ins, and I write and modify the
-          HTML and CSS for the websites. I customize and tweak WordPress
-          plug-ins and themes to fit the client's needs.
-        </p>
-        <h3>Travel Agent</h3>
-        <h4>TRIPTAILOR</h4>
-        <p class="para"><small>Sep 2019 - May 2020 (9 months)</small></p>
-        <p class="para">
-          In charge of building offers to clients according to internal rules,
-          also processing booking requests for airline tickets, accommodation,
-          rent a car and health insurance
-        </p>
-        <h3>Concierge / Bellman / Valet Parking</h3>
-        <h4>Radisson Blu</h4>
-        <p class="para">
-          <small>Mar 2008 - Sep 2019 (11 years 7 months)</small>
-        </p>
-        <p class="para">
-          Provide information to customers, assist guests with various tasks
-          such as making restaurant reservations, recommending entertainment
-          highlights, booking transportation (limousines, airplanes, boats,
-          etc.) and other services, procurement of tickets to special events,
-          and assisting with various travel arrangements and tours of local
-          attractions.
-        </p>
-      </section>
-      <section class="education">
-        <h2>Education</h2>
-        <h3>Hyperion University</h3>
-        <h4>Faculty of Social, Humanities and Natural Sciences, Bucharest</h4>
-        <h4>Bachelor's degree: Political Sciences History && Geography</h4>
-        <p class="para"><small>2000 - 2004</small></p>
-      </section>
-      <section class="languages">
-        <h2>Languages</h2>
-        <p class="para">English: advanced</p>
-        <p class="para">French: below beginner level :)</p>
-      </section>
-      <section class="licenses">
-        <h2>Licenses & Certifications</h2>
-        <p class="para">
-          JavaScript Algorithms and Data Structures - freeCodeCamp
-        </p>
-        <p class="para">Responsive Web Design - freeCodeCamp</p>
-        <p class="para">WordPress: Workflows - LinkedIn</p>
-        <p class="para">
-          WordPress 5 Essential Training: Site Administration - LinkedIn
-        </p>
-        <p class="para">WordPress 5 Essential Training - LinkedIn</p>
-        <p class="para">Responsive Layout - LinkedIn</p>
-        <p class="para">
-          CSS Layouts: From Float to Flexbox and Grid - LinkedIn
-        </p>
-        <p class="para">CSS: Selectors - LinkedIn</p>
-        <p class="para">Crafting Meaningful HTML - LinkedIn</p>
-        <p class="para">CSS Essential Training - LinkedIn</p>
-        <p class="para">HTML Essential Training - LinkedIn</p>
-      </section>
-      <section class="skills">
-        <h2>Skills</h2>
-        <ul class="skills-list">
-          <li class="list-item">HTML</li>
-          <li class="list-item">Cascading Style Sheets (CSS)</li>
-          <li class="list-item">JavaScript</li>
-          <li class="list-item">Git</li>
-          <li class="list-item">Bootstrap</li>
-          <li class="list-item">Tailwind CSS</li>
-          <li class="list-item">Sass</li>
-          <li class="list-item">jQuery</li>
-          <li class="list-item">React</li>
-          <li class="list-item">Svelte</li>
-          <li class="list-item">GitHub</li>
-        </ul>
-      </section>
-    </main>
-  </body>
+    <a
+      class='contact-link summary__link'
+      href='https://www.linkedin.com/in/bogdan-langhe/'
+    >https://langhebogdan.github.io/myCvtoGitPage/</a
+    >
+  </section>
+  <section class='experience'>
+    <h2>Experience</h2>
+    <h3>Web Content Manager / Travel Counselor</h3>
+    <h4>TRIPTAILOR</h4>
+    <p class='para'><small>May 2021 - Present (9 months +)</small></p>
+    <p class='para'>
+      As a web content manager, I am in charge of modifying web pages (I
+      update the HTML, CSS code to meet TRIPTAILOR demands) also videos,
+      images, occasionally social media and marketing (e.g. Google Ads
+      Campaign, SEO).
+    </p>
+    <p class='para'>
+      As a travel counsellor, I am in charge of building offers to clients
+      according to internal rules, also processing booking requests for
+      airline tickets, accommodation, rent a car and health insurance.
+    </p>
+    <h3>Junior Web Developer</h3>
+    <h4>Freelancer</h4>
+    <p class='para'>
+      <small>Oct 2020 - Present (1 year 2 months +)</small>
+    </p>
+    <p class='para'>
+      I design and maintain websites for various clients
+      (https://www.ofsystems.ro/, https:// www.brutariaconcordia.ro/),
+      mainly on the WordPress CMS.
+    </p>
+    <p class='para'>
+      I work with pre-built themes and plug-ins, and I write and modify the
+      HTML and CSS for the websites. I customize and tweak WordPress
+      plug-ins and themes to fit the client's needs.
+    </p>
+    <h3>Travel Agent</h3>
+    <h4>TRIPTAILOR</h4>
+    <p class='para'><small>Sep 2019 - May 2020 (9 months)</small></p>
+    <p class='para'>
+      In charge of building offers to clients according to internal rules,
+      also processing booking requests for airline tickets, accommodation,
+      rent a car and health insurance
+    </p>
+    <h3>Concierge / Bellman / Valet Parking</h3>
+    <h4>Radisson Blu</h4>
+    <p class='para'>
+      <small>Mar 2008 - Sep 2019 (11 years 7 months)</small>
+    </p>
+    <p class='para'>
+      Provide information to customers, assist guests with various tasks
+      such as making restaurant reservations, recommending entertainment
+      highlights, booking transportation (limousines, airplanes, boats,
+      etc.) and other services, procurement of tickets to special events,
+      and assisting with various travel arrangements and tours of local
+      attractions.
+    </p>
+  </section>
+  <section class='education'>
+    <h2>Education</h2>
+    <h3>Hyperion University</h3>
+    <h4>Faculty of Social, Humanities and Natural Sciences, Bucharest</h4>
+    <h4>Bachelor's degree: Political Sciences History && Geography</h4>
+    <p class='para'><small>2000 - 2004</small></p>
+  </section>
+  <section class='languages'>
+    <h2>Languages</h2>
+    <p class='para'>English: advanced</p>
+    <p class='para'>French: below beginner level :)</p>
+  </section>
+  <section class='licenses'>
+    <h2>Licenses & Certifications</h2>
+    <p class='para'>
+      JavaScript Algorithms and Data Structures - freeCodeCamp
+    </p>
+    <p class='para'>Responsive Web Design - freeCodeCamp</p>
+    <p class='para'>WordPress: Workflows - LinkedIn</p>
+    <p class='para'>
+      WordPress 5 Essential Training: Site Administration - LinkedIn
+    </p>
+    <p class='para'>WordPress 5 Essential Training - LinkedIn</p>
+    <p class='para'>Responsive Layout - LinkedIn</p>
+    <p class='para'>
+      CSS Layouts: From Float to Flexbox and Grid - LinkedIn
+    </p>
+    <p class='para'>CSS: Selectors - LinkedIn</p>
+    <p class='para'>Crafting Meaningful HTML - LinkedIn</p>
+    <p class='para'>CSS Essential Training - LinkedIn</p>
+    <p class='para'>HTML Essential Training - LinkedIn</p>
+  </section>
+  <section class='skills'>
+    <h2>Skills</h2>
+    <ul class='skills-list'>
+      <li class='list-item'>HTML</li>
+      <li class='list-item'>Cascading Style Sheets (CSS)</li>
+      <li class='list-item'>JavaScript</li>
+      <li class='list-item'>Git</li>
+      <li class='list-item'>Bootstrap</li>
+      <li class='list-item'>Tailwind CSS</li>
+      <li class='list-item'>Sass</li>
+      <li class='list-item'>jQuery</li>
+      <li class='list-item'>React</li>
+      <li class='list-item'>Svelte</li>
+      <li class='list-item'>GitHub</li>
+    </ul>
+  </section>
+</main>
+</body>
 </html>
